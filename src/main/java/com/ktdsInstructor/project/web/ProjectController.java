@@ -1,6 +1,7 @@
 package com.ktdsInstructor.project.web;
 
 import java.util.Date;
+import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +13,7 @@ import com.ktdsInstructor.user.service.UserService;
 
 import lecture.schema.LecturesSchema;
 import project.schema.TeamsSchema;
+import user.schema.UsersSchema;
 
 @Controller
 public class ProjectController {
@@ -40,7 +42,13 @@ public class ProjectController {
 		TeamsSchema team = new TeamsSchema();
 		team.setTeamName(teamName);
 		team.setCreatedDate(new Date());
+		List<UsersSchema> users = null;
 		
+		
+		UsersSchema user = null;
+		for (String id : userId) {
+			
+		}
 		
 		return "redirect:/";
 	}
