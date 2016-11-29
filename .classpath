@@ -35,7 +35,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/KtdsSchema"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/AdminPage"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/NomalPage"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

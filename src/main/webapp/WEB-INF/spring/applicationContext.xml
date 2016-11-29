@@ -45,37 +45,37 @@
 		mapping="/img/**" />
 	
 	<bean	id="userController"
-			class="com.ktdsInstructor.user.web.UserController">
+			class="com.ktdsuniv.user.web.UserController">
 		<property name="userService" ref="userService"/>		
 	</bean>
 
 	<bean	id="boardController"
-			class="com.ktdsInstructor.board.web.BoardController">
+			class="com.ktdsuniv.board.web.BoardController">
 		<property name="boardService" ref="boardService"/>
 	</bean>
 	
 	<bean	id="replyController"
-			class="com.ktdsInstructor.board.web.ReplyController">
+			class="com.ktdsuniv.board.web.ReplyController">
 		<property name="replyService" ref="replyService"/>		
 	</bean>
 	
 	<bean	id="projectController"
-			class="com.ktdsInstructor.project.web.ProjectController">
+			class="com.ktdsuniv.project.web.ProjectController">
 		<property name="projectService" ref="projectService"/>		
 	</bean>
 
 	<bean	id="lectureController"
-			class="com.ktdsInstructor.lecture.web.LectureController">
+			class="com.ktdsuniv.lecture.web.LectureController">
 		<property name="lectureService" ref="lectureService"/>		
 	</bean>
 
 	<bean	id="roomController"
-			class="com.ktdsInstructor.room.web.RoomController">
+			class="com.ktdsuniv.room.web.RoomController">
 		<property name="roomService" ref="roomService"/>		
 	</bean>
 	
 	<bean	id="seatController"
-			class="com.ktdsInstructor.room.web.SeatController">
+			class="com.ktdsuniv.room.web.SeatController">
 		<property name="seatService" ref="seatService"/>		
 	</bean>
 
