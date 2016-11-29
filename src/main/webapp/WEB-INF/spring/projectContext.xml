@@ -5,17 +5,17 @@
 
 
 	<bean	id="projectService"
-			class="com.ktdsuniv.project.service.impl.ProjectServiceImpl">
+			class="com.ktdsInstructor.project.service.impl.ProjectServiceImpl">
 		<property name="projectBiz" ref="projectBiz"/>		
 	</bean>
 	
 	<bean	id="projectBiz"
-			class="com.ktdsuniv.project.biz.impl.ProjectBizImpl">
+			class="com.ktdsInstructor.project.biz.impl.ProjectBizImpl">
 		<property name="projectDao" ref="projectDao"/>		
 	</bean>
 	
 	<bean	id="projectDao"
-			class="com.ktdsuniv.project.dao.impl.ProjectDaoImpl">
+			class="com.ktdsInstructor.project.dao.impl.ProjectDaoImpl">
 		<property name="mongoTemplate" ref="mongoTemplate"/>		
 	</bean>
 
