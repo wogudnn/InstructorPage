@@ -29,11 +29,11 @@ public class ProjectController {
 	@RequestMapping("/instructor/addTeam")
 	public ModelAndView viewAddTeamPage(){
 		
-		LecturesSchema lecture = lectureService.getLectureById("abcd");
+		//LecturesSchema lecture = lectureService.getLectureById("abcd");
 		
 		ModelAndView view = new ModelAndView();
 		view.setViewName("/addTeam");
-		view.addObject("users", lecture.getUser());
+		//view.addObject("users", lecture.getUser());
 		return view;
 	}
 	

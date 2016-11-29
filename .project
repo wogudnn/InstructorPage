@@ -3,6 +3,7 @@
 	<name>InstructorPage</name>
 	<comment></comment>
 	<projects>
+		<project>KtdsSchema</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
